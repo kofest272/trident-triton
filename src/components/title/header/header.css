@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'cascadia_monoextralight';
+    src: url('../../../design/fonts/cascadiamono-extralight-webfont.woff2') format('woff2'),
+        url('../../../design/fonts/cascadiamono-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'arthuramedium_italic';
+    src: url('../../../design/fonts/arthura-mediumitalic-webfont.woff2') format('woff2'),
+        url('../../../design/fonts/arthura-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'arthuramedium';
+    src: url('../../../design/fonts/arthura-medium-webfont.woff2') format('woff2'),
+        url('../../../design/fonts/arthura-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.background {
+    position: absolute;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.logoTitle {
+    width: 80px;
+}
+
+.logoText {
+    z-index: 2;
+    font-family: 'cascadia_monoextralight';
+    background: none;
+    color: #6cedde;
+    font-size: 35px;
+}
+
+strong {
+    color: white;
+    background: none;
+}
+
+.header {
+    width: 1500px;
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    background: none;
+}
+
+.logoDiv {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'arthuramedium';
+    background: none;
+}
+
+.modesDiv {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: none;
+}
+
+.modesText {
+    z-index: 2;
+    font-family: 'cascadia_monoextralight';
+    background: none;
+    color: #ffffff;
+    font-size: 150%;
+}
+
+.modesTextActive {
+    z-index: 2;
+    font-family: 'arthuramedium';
+    background: none;
+    color: #43d6cc;
+    font-size: 25px;
+}

@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'cascadia_monoextralight';
+    src: url('../../design/fonts/cascadiamono-extralight-webfont.woff2') format('woff2'),
+        url('../../design/fonts/cascadiamono-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NeometricReg';
+    src: url('../../design/fonts/Neometric-Regular.eot');
+    src: local('Neometric Regular'), local('Neometric-Regular'),
+        url('../../design/fonts/Neometric-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../design/fonts/Neometric-Regular.woff2') format('woff2'),
+        url('../../design/fonts/Neometric-Regular.woff') format('woff'),
+        url('../../design/fonts/Neometric-Regular.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+.backgroundCards {
+    margin-top: 150px;
+    display: flex;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.mainCards {
+    margin-top: 350px;
+    display: flex;
+    flex-flow: column;
+}
+
+.hexCard {
+    margin-top: 50px;
+    transform-style: preserve-3d;
+    width: 200px;
+    height: 130px;
+    transform: rotateZ(-10deg);
+    background: none;
+}
+
+.pentaCard {
+    margin-top: 50px;
+    width: 200px;
+    height: 130px;
+    transform: rotateZ(10deg);
+    background: none;
+}
+
+.tetraCard {
+    z-index: 3;
+    width: 300px;
+    background: none;
+}
+
+.cards {
+    margin-top: 150px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardsInfo {
+    margin-top: 30px;
+    height: 220px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-flow: column;
+}
+
+.cardsInfoBig {
+    z-index: 3;
+    background: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'NeometricReg';
+}
+
+.strText {
+    width: 1230px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    z-index: 3;
+    background: none;
+}
+
+.strText h4 {
+    width: 120%;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'NeometricReg';
+    background: none;
+    font-size: 25px;
+}
+
+.strText h4:nth-child(1) {
+    color: #69c393;
+}
+
+.strText h4:nth-child(2) {
+    font-size: 30px;
+    color: #66cadd;
+}
+
+.strText h4:nth-child(3) {
+    color: #a271da;
+}
+
+.cardsInfoN {
+    z-index: 3;
+    background: none;
+}

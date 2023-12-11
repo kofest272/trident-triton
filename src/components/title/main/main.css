@@ -1,0 +1,117 @@
+@import url(https://db.onlinewebfonts.com/c/49441315ab9ce55176682715f25ea4b2?family=Microgramma+D+Bold+Extended);
+
+@font-face {
+    font-family: 'NeometricReg';
+    src: url('../../../design/fonts/Neometric-Regular.eot');
+    src: local('Neometric Regular'), local('Neometric-Regular'),
+        url('../../../design/fonts/Neometric-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../../../design/fonts/Neometric-Regular.woff2') format('woff2'),
+        url('../../../design/fonts/Neometric-Regular.woff') format('woff'),
+        url('../../../design/fonts/Neometric-Regular.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Neometric';
+    src: url('../../../design/fonts/Neometric-Bold.eot');
+    src: local('Neometric Bold'), local('Neometric-Bold'),
+        url('../../../design/fonts/Neometric-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../../design/fonts/Neometric-Bold.woff2') format('woff2'),
+        url('../../../design/fonts/Neometric-Bold.woff') format('woff'),
+        url('../../../design/fonts/Neometric-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+.TextBig {
+    margin-top: 2%;
+    display: flex;
+    flex-flow: column;
+    background: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleText {
+    width: 1200px;
+    z-index: 4;
+    font-family: "Microgramma D Bold Extended";
+    text-align: center;
+    font-size: 90px;
+    background: none;
+    margin-top: 0%;
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, rgba(48, 127, 199, 1) 0%, rgba(69, 222, 205, 1) 65%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.miniText {
+    width: 65vh;
+    z-index: 4;
+    font-family: 'NeometricReg';
+    text-align: center;
+    font-size: 30px;
+    background: none;
+    margin-top: 0%;
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, rgb(176, 176, 176) 0%, rgb(109, 109, 109));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.main {
+    margin-top: 2%;
+    display: flex;
+    background: none;
+    flex-flow: column;
+}
+
+.btnsTitle {
+    margin-top: 3%;
+    display: flex;
+    width: 600px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cyanButton {
+    z-index: 3;
+    width: 250px;
+    height: 50px;
+    background-color: #46e9d5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    stroke: none;
+    border: none;
+    -webkit-border-top-left-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-bottomright: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.transparentButton {
+    z-index: 3;
+    width: 250px;
+    height: 50px;
+    background: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: white;
+    border: 4px solid #46e9d5;
+    -webkit-border-top-left-radius: 15px;
+    -webkit-border-bottom-right-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-bottomright: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

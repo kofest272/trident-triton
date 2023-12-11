@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'NeometricBold';
+    src: url('../../design/fonts/Neometric-Bold.eot');
+    src: local('Neometric Bold'), local('Neometric-Bold'),
+        url('../../design/fonts/Neometric-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../../design/fonts/Neometric-Bold.woff2') format('woff2'),
+        url('../../design/fonts/Neometric-Bold.woff') format('woff'),
+        url('../../design/fonts/Neometric-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+.mt {
+    height: 300%;
+    margin-top: 200px;
+}
+
+.backgroundCredit {
+    position: absolute;
+    z-index: 0;
+}
+
+.cardCredit {
+    z-index: 3;
+    margin: 20px;
+    display: flex;
+    width: 1250px;
+    height: 500px;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(180deg, #16141A 0%, #0B0A0E 65%);
+    border-radius: 25px;
+}
+
+.inputCredit {
+    display: flex;
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border: none;
+    font-family: 'NeometricBold';
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.inputCreditRange {
+    position: absolute;
+    display: flex;
+    width: 400px;
+    height: 10px;
+    -webkit-appearance: none;
+    background: linear-gradient(45deg, rgba(48, 127, 199, 1) 0%, rgba(69, 222, 205, 1) 65%);
+    color: black;
+    border: none;
+    font-family: 'NeometricBold';
+    font-size: 20px;
+}
+
+.inputCreditRange::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 5px solid rgba(48, 127, 199, 1);
+    color: white;
+    background: rgb(255, 255, 255);
+}
+
+.creditCard {
+    height: 50px;
+    background: none;
+}
+
+.inputs {
+    display: flex;
+    height: 200px;
+    flex-flow: column;
+    background: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.creditText {
+    z-index: 4;
+    font-family: 'Neometric';
+    margin-left: 15px;
+    text-align: left;
+    font-size: 30px;
+    background: none;
+    margin-top: 0%;
+    background-color: #f3ec78;
+    background-image: linear-gradient(90deg, rgb(72, 167, 255) 13%, rgb(109, 220, 207) 15%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.resultDiv {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    background: none;
+    width: 700px;
+    height: 500px;
+}
+
+.resultStr {
+    display: flex;
+    height: 100px;
+    width: 650px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background: none;
+}
+
+.creditResultText {
+    width: 400px;
+    z-index: 4;
+    font-family: 'Neometric';
+    text-align: left;
+    font-size: 45px;
+    background: none;
+    margin-top: 0%;
+    background-color: #f3ec78;
+    background-image: linear-gradient(45deg, rgb(72, 167, 255) 0%, rgba(69, 222, 205, 1) 85%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.creditResult {
+    display: flex;
+    text-align: center;
+    font-size: 55px;
+    background: none;
+    color: white;
+}
+
+.credit {
+    width: 1500px;
+    margin-bottom: 50px;
+}
